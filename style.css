@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    /* --first-color: #95a2a2; */
+    --second-color: #197278;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--first-color);
+    color: rgb(221, 191, 191);
+}
+
+.container {
+    background-color: var(--second-color);
+    overflow: hidden;
+    max-width: 100%;
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    /* padding: 10px 10px; */
+
+}
+
+.header h2 {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    /* padding: 5px; */
+}
+
+.form {
+    padding: 10px 20px;
+}
+
+.form-control {
+    margin-bottom: 12px;
+
+}
+
+.form-control label {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.form-control input {
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    /* padding: 10px; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    margin-top: 5px;
+}
+
+.form-control input:focus {
+    outline: 0;
+}
+
+.form-control.success input {
+    border-color: rgb(39, 239, 39);
+}
+
+.form-control.error input {
+    border-color: red;
+}
+
+.form-control i {
+    visibility: visible;
+    position: absolute;
+ 
+    top: 20px;
+    right: 2px;
+}
+
+small {
+    color: rgb(160, 21, 21);
+    visibility: hidden;
+
+}
+.form-control.error small{
+    visibility: visible;
+}
+.form button{
+    background-color: gray;
+    border: none;
+    color: black;
+    font-size: 15px;
+    /* padding: 10px;/ */
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
